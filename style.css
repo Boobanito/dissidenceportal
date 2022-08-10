@@ -1,0 +1,118 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    
+}
+
+#animation-bg {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+#centerbox {
+    height: 450px;
+    width: 1230px;
+    background: #202124;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    box-shadow: 0px 0px 30px#202124;
+  }
+
+#filter {
+    align-content: center;
+    position: relative;
+    height: 100%;
+    width: 50% ;
+    top: 0%;
+    left: 50%; 
+    border-radius: 0px 10px 10px 0px;
+    
+    
+}
+  
+#Photo1 {
+    position: relative;
+    height: 100%;
+    width: 100% ;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
+h1 {
+    margin-left: 7%;
+    text-align: justify;
+    position: relative;
+    margin-top: -32%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+
+}
+
+#insights {
+    color: hsl(342, 89%, 50%);
+}
+
+#description {
+    position: relative;
+    margin-left: 7%;
+    color: rgb(167, 166, 166);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px ;
+}
+
+#social {
+    display: flex;
+    position: relative;
+    fill: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+
+
+#discord {
+    transition: 0.4s ease all;
+}
+#discord:hover {
+    fill: hsl(342, 89%, 50%);
+    transition: 0.4s ease ;
+
+}
+#youtube {
+    transition: 0.4s ease all;
+}
+#youtube:hover {
+    fill: hsl(342, 89%, 50%);
+    transition: 0.4s ease all;
+}
+#twitter{
+    transition: 0.4s ease all;
+}
+#twitter:hover {
+    fill: hsl(342, 89%, 50%);
+    transition: 0.4s ease all;
+}
+#tiktok {
+    transition: 0.4s ease all; 
+}
+#tiktok:hover {
+    fill: hsl(342, 89%, 50%);
+    transition: 0.4s ease all;
+}
+
+.social-links {
+    margin-left: 55px;
+}
+
+
+
